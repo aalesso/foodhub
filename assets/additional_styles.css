@@ -1,17 +1,129 @@
 body {
   font-family: "Montserrat";
-  font-size: 16px;
+  font-size: 14px;
 }
 
 h1, h2, h3, h4 {
   font-weight: 700;
 }
-
-.navbar-brand {
-  font-family: "Passion One";
-  font-size: xx-large;
+img, form, h1, h2, p{
+  border: thin green solid;
+}
+.row{
+  border: thin grey solid;
+}
+.pequeno{
+  font-size: 20.5px;
 }
 
+
+.espacio{
+  margin-top: 200px;
+}
+.top-cover{
+  background: url("images/main-hero.jpg")
+  no-repeat center center;
+  background-size: cover;
+  height: 500px;
+  padding-top: 150px;
+  color: white;
+  padding-left: 200px;*/
+  padding-right: 200px;
+}
+.top-cover2{
+  background: url("images/download-hero.jpg")
+  no-repeat center center;
+  background-size: cover;
+  height: 500px;
+  padding-top: 150px;
+  color: white;
+
+}
+span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+.cover3{
+  background-color: #3232AA;
+}
+li{
+  color: white !important;
+  font-style: lighter;
+}
+footer h4{
+  color:white;
+  font-size: 15px;
+}
+footer li{
+  color:white !important;
+  margin-top:10px;
+  font-size: 13px;
+}
+ul{
+  list-style-type: none;
+  list-style: none;
+  padding-left: 0;
+}
+
+.row label{
+  font-size: 14px;
+}
+
+/*.fillheight{
+min-width: : 100%;
+height: : auto;
+}*/
+.col-sm-12 .col-sm-4{
+  text-align: center;
+}
+.navbar-default {
+  background-color: #F63440;
+  color: white;
+}
+.navbar-header a{
+  color: white;
+}
+.containernav a{
+  color: white;
+}
+.navbar .navbar-default .navbar-fixed-top a{
+  color: white;
+}
+
+.navbar a{color: white !important;}
+
+.navbar-brand{
+  font-family: "Passion One";
+  font-size: xx-large;
+  color: #FFFFFF;
+}
+.navbar-brand a{
+  color: white;
+}
+.greyback{
+  background-color: #EEEEEE;
+}
+
+
+.img-circle1{
+  position: absolute center;
+  display.block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+}
+
+.img-circle2{
+  width: 50px;
+}
+.appimg{
+  width: 200px;
+}
+
+.centerly{
+  text-align: center;
+}
 /* My standard vertical spacing classes */
 
 .padding-inside-top-xs {
